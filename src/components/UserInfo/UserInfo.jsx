@@ -1,9 +1,9 @@
 import "./UserInfo.scss";
-import profilePic from "./../../../../pictures/profilePic.png";
+import profilePic from "./../../pictures/profilePic.png";
 
 export default function UserInfo(props) {
     const achievementItems = props.achievements.map(achievement => 
-        <div className="achievement">{achievement}</div>
+        <div className="achievement" key={achievement}>{achievement}</div>
     );
 
     return (

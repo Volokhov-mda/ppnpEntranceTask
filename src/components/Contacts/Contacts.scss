@@ -1,4 +1,4 @@
-@import "./../../../../variables.scss";
+@import "./../../variables.scss";
 
 .contacts_wrapper {
     margin: 44px 0 61px;
@@ -8,8 +8,6 @@
     align-items: center;
 
     .contactsForm {
-        width: 600px;
-
         border-radius: 24px;
 
         background: $form-background-color;
@@ -54,8 +52,6 @@
     }
     
     .contacts_content {
-        width: 600px;
-
         .contactsDescription {
             font-size: 24px;
             font-weight: 500;
@@ -99,5 +95,31 @@
 
     .contacts_content > *:last-child {
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: #{$bp-flex-dir-contacts + 1px}) {
+    .contacts_content {
+        width: calc(100% / 2 - 40px / 2);
+    }
+
+    .contactsForm {
+        width: calc(100% / 2 - 40px / 2);
+    }
+}
+
+@media (max-width: $bp-flex-dir-contacts) {
+    .contacts_wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .contacts_content {
+        width: 100%;
+    }
+
+    .contactsForm {
+        width: 100%;
+
+        margin-top: 40px;
     }
 }

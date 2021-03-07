@@ -1,6 +1,8 @@
-@import "./../../../../_variables.scss";
+@import "./../../variables.scss";
 
 .priceList_wrapper {
+    margin: -10px 0;
+
     .sectionHeader {
         margin-bottom: 19px;
     }
@@ -8,5 +10,6 @@
     .prices_wrapper {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 }

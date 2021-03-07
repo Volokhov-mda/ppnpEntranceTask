@@ -4,14 +4,22 @@ $form-background-color: #EAEEF3;
 $logo-color: #5862EE;
 
 $root-padding-top: 72px;
-$root-padding-left: 100px;
 $root-padding-bottom: 46px;
+$root-padding-left: 100px;
+$root-padding-left-900px-screen: 20px;
 
 $section-header-size: 32px;
 $sub-header-size: 24px;
 
 $profile-pic-width: 320px;
 $profile-pic-height: 363px;
+$profile-pic-width-900px-screen: 256px;
+$profile-pic-height-900px-screen: 290px;
 
 $social-icon-width: 48px;
 $social-icon-height: 48px;
+
+// Breakpoints
+$bp-padding-picture: 700px;
+$bp-flex-dir-userInfo: 1140px;
+$bp-flex-dir-contacts: 900px;

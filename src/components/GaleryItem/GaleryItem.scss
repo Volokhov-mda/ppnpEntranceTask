@@ -1,11 +1,16 @@
 .galeryItem_wrapper {
     position: relative;
 
-    min-width: 390px;
-    min-height: 290px;
+    margin: 10px 0;
 
-    // background-image: url("./../../../../../../pictures/galaryItemBackgroundPic.png");
-    background-size: 100%;
+    // Ширина задается динамически React'ом в зависимости от ширины экрана и количества элементов данного типа.
+
+    min-height: 290px;
+    min-width: 250px;
+
+    border-radius: 12px;
+
+    background-position: center;
 
     .galeryItem_content {
         width: 100%;
@@ -26,6 +31,8 @@
             color: #fff;
     
             .serviceName {
+                margin-bottom: 5px;
+
                 font-size: 24px;
                 font-weight: bold;
             }
@@ -36,5 +43,14 @@
                 line-height: 24px;
             }
         }
+    }
+}
+
+@media (max-width: 700px) {
+    .galeryItem_wrapper {
+        width: 100% !important;
+        min-width: unset;
+
+        background-size: 100%;
     }
 }

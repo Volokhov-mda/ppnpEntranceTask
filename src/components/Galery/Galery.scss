@@ -1,4 +1,4 @@
-@import "./../../../../_variables.scss";
+@import "./../../variables.scss";
 
 .galery_wrapper {
     .sectionHeader {
@@ -6,7 +6,10 @@
     }
 
     .jobsDone_wrapper {
+        margin: -10px 0;
+
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 }

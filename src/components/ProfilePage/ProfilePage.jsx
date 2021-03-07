@@ -1,9 +1,9 @@
 import "./ProfilePage.scss";
-import UserInfo from "./components/UserInfo/UserInfo.jsx";
-import AboutMe from "./components/AboutMe/AboutMe.jsx";
-import PriceList from "./components/PriceList/PriceList.jsx";
-import Galery from "./components/Galery/Galery.jsx";
-import Contacts from "./components/Contacts/Contacts.jsx";
+import UserInfo from "./../UserInfo/UserInfo.jsx";
+import AboutMe from "./../AboutMe/AboutMe.jsx";
+import PriceList from "./../PriceList/PriceList.jsx";
+import Galery from "./../Galery/Galery.jsx";
+import Contacts from "./../Contacts/Contacts.jsx";
 
 // Информация о пользователе, полученная с сервера.
 // Это простая имитация, поэтому в этом объекте нет, например, фотографий.
