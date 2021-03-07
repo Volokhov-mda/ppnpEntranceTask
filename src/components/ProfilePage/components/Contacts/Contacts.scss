@@ -1,0 +1,103 @@
+@import "./../../../../variables.scss";
+
+.contacts_wrapper {
+    margin: 44px 0 61px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contactsForm {
+        width: 600px;
+
+        border-radius: 24px;
+
+        background: $form-background-color;
+
+        .inputs_wrapper {
+            width: 100%;
+
+            padding: 22px 0 32px;
+
+            display: flex;
+            flex-direction: column;
+
+            input, button {
+                margin: 12px 34px 12px 32px;
+                padding: 20px;
+    
+                font-family: "Gotham Pro", sans-serif;
+                font-size: 24px;
+                line-height: 23px;
+    
+                border: 0;
+                border-radius: 12px;
+            }
+
+            input::placeholder {
+                color: $text-color;
+            }
+
+            button {
+                padding: 23px 0 20px;
+
+                font-weight: bold;
+
+                color: #fff;
+
+                background: $base-color;
+
+                cursor: pointer;
+            }
+        }
+        
+    }
+    
+    .contacts_content {
+        width: 600px;
+
+        .contactsDescription {
+            font-size: 24px;
+            font-weight: 500;
+
+            white-space: pre-line;
+        }
+
+        .phone_wrapper {
+            .subHeader {
+                margin-bottom: 4px;
+            }
+
+            .phone {
+                font-size: 24px;
+            }
+        }
+
+        .social_wrapper {
+            .subHeader {
+                margin-bottom: 10px;
+            }
+
+            .social, img {
+                width: $social-icon-width;
+                height: $social-icon-height;
+            }
+
+            .social {
+                margin-right: 10px;
+            }
+
+            .social:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .contacts_content > * {
+        margin-bottom: 24px;
+    }
+
+    .contacts_content > *:last-child {
+        margin-bottom: 0;
+    }
+}

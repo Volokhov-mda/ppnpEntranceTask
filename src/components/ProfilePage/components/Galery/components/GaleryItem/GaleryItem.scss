@@ -1,0 +1,40 @@
+.galeryItem_wrapper {
+    position: relative;
+
+    min-width: 390px;
+    min-height: 290px;
+
+    // background-image: url("./../../../../../../pictures/galaryItemBackgroundPic.png");
+    background-size: 100%;
+
+    .galeryItem_content {
+        width: 100%;
+        height: 100%;
+
+        border-radius: 12px;
+        
+        background-color: rgba($color: #000000, $alpha: .75);
+
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+        .galeryItem_info {
+            position: absolute;
+    
+            left: 24px;
+            bottom: 32px;
+    
+            color: #fff;
+    
+            .serviceName {
+                font-size: 24px;
+                font-weight: bold;
+            }
+    
+            .jobDate {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import "./../../variables";
+
+footer {
+    font-size: 24px;
+
+    .logo {
+        font-family: "PF Playskool Pro Regular";
+        font-size: 42px;
+        text-decoration: none;
+
+        color: $logo-color;
+    }
+}

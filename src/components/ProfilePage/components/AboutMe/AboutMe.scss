@@ -1,0 +1,15 @@
+@import "./../../../../variables.scss";
+
+.aboutMe_wrapper {
+    .sectionHeader {
+        margin-bottom: 12px;
+    }
+
+    .aboutMe {
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 500;
+
+        white-space: pre-line;
+    }
+}

@@ -1,0 +1,59 @@
+@import "./variables.scss";
+
+body {
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: $text-color;
+
+  #root {
+    min-height: calc(100vh - (72px + 46px));
+    max-width: 1240px;
+    min-width: 1240px;
+  
+    margin: 0;
+    padding: 72px 100px 46px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    font-family: "Montserrat", sans-serif;
+  
+    footer {
+      flex-shrink: 0;
+      text-align: center;
+    }
+  }
+}
+
+// GLOBAL STYLES.
+.sectionHeader {
+  // To reduce margin from h# tags.
+  margin: 0;
+
+  color: $base-color;
+
+  font-size: $section-header-size;
+  font-weight: bold;
+  line-height: 43px;
+}
+
+.subHeader {
+  // To reduce margin from h# tags.
+  margin: 0;
+
+  color: $text-color;
+
+  font-size: $sub-header-size;
+  font-weight: bold;
+}
+
+a[href^="tel:"] {
+  font-weight: bold;
+  text-decoration: none;
+
+  color: $base-color;
+}

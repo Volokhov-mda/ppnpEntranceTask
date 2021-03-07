@@ -1,0 +1,12 @@
+@import "./../../../../_variables.scss";
+
+.priceList_wrapper {
+    .sectionHeader {
+        margin-bottom: 19px;
+    }
+
+    .prices_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

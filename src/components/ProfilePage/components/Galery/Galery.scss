@@ -1,0 +1,12 @@
+@import "./../../../../_variables.scss";
+
+.galery_wrapper {
+    .sectionHeader {
+        margin-bottom: 24px;
+    }
+
+    .jobsDone_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
