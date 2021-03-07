@@ -10,12 +10,12 @@ body {
   color: $text-color;
 
   #root {
-    min-height: calc(100vh - (72px + 46px));
+    min-height: calc(100vh - #{($root-padding-top + $root-padding-bottom)});
     max-width: 1240px;
     min-width: 1240px;
   
     margin: 0;
-    padding: 72px 100px 46px;
+    padding: $root-padding-top $root-padding-left $root-padding-bottom;
     
     display: flex;
     flex-direction: column;
